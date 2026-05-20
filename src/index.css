@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0a0a;
+  --text: #f3f4f6;
+  --text-muted: #9ca3af;
+  --accent: #c084fc;
+  --accent-bg: rgba(192, 132, 252, 0.1);
+  --border: #1f2937;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom smooth scrolling for the whole app */
+html {
+  scroll-behavior: smooth;
+}
