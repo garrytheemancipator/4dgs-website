@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Atom, Zap, Shield, Globe, Users, Award } from 'lucide-react';
+import { Atom, Zap, Shield, Globe, Users, Award, Eye, Layers, Clock } from 'lucide-react';
 
 interface FeatureProps {
   icon: React.ReactNode;

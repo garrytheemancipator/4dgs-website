@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import Hero from './components/ui/Hero';
 import TechnologySection from './components/sections/TechnologySection';
 import ShowcaseSection from './components/sections/ShowcaseSection';
-import ResearchSection from '/components/sections/ResearchSection';
+import ResearchSection from './components/sections/ResearchSection';
 import AboutSection from './components/sections/AboutSection';
 import ContactSection from './components/sections/ContactSection';
 
